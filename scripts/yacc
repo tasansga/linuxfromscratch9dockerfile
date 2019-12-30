@@ -1,0 +1,5 @@
+#!/bin/sh
+# Begin /usr/bin/yacc
+
+/usr/bin/bison -y $*
+
