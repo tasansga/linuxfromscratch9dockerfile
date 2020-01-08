@@ -1685,6 +1685,8 @@ RUN rm -Rf /tmp/* && \
            /usr/src/* \
            /scripts 
 
+ENV PS1 '\u:\w\$ '
+
 WORKDIR /root
 ENTRYPOINT [ "/bin/bash" ]
 
